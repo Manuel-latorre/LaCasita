@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.cabecera{
+    background:url(/imagenes/fondo.png);
+    background-color:rgb(34, 32, 32);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+
+
+.titulo{
+    color:#8fbb29;
+    font-size:100px;
+    text-decoration: none;
+    font-family: 'Noto Serif Display', serif;
+    margin-top: 150px;
+}
+
+
+
+.nav-link{
+    font-family: 'Dosis', sans-serif;
+    font-size:16px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+
+
+.cabecera .navbar-nav .nav-link{
+    color:#8fbb29;
+    letter-spacing: 1px;
+    font-weight:bold;
+    padding: 2px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition:0.3s;
+    transition-property:background;
+    
+}
+
+.cabecera .navbar-nav .nav-link:hover{
+    background: #fff;
+    color:#8fbb29;
+}
+
+.presentacion{
+    display:grid;
+    grid-template-columns:3fr 3fr 1fr;
+    background-color:#1f5228;
+    height:500px;
+    align-items: center;
+}
+
+.textoPresentacion{
+    margin-left: 50px;
+    font-family: 'Noto Serif Display', serif;
+    color: #8fbb29;
+    font-size:70px;
+}
+
+.parrafoPresentacion{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color:#fff ;
+    
+}
+
+.almuerzoEn-5{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    height:900px;
+    align-items: center;
+}
+
+
+.textoen5{
+    margin-right: 80px;
+    margin-left:80px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    
+}
+
+.almuerzoen5{
+    font-family: 'Noto Serif Display', serif;
+    color: #8fbb29;
+    font-size:70px;
+
+}
+
+.listaen5{
+    margin-left:50px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.fotoen5{
+    display: flex;
+    justify-content: center;
+}
+
+.foto5{
+    width:100%;
+    max-width:600px;
+    border-radius: 15px;
+}
+
+
+.containerFluid{
+    display: grid;
+    min-width:100vw;
+    background-image: url(/imagenes/patron1.jpg);
+    background-color:#1f5228ee;
+    background-blend-mode: soft-light;
+}
+
+
+.titulo-recetas{
+    font-family: 'Dosis', sans-serif;
+    font-size:45px;
+    color:#fff;
+    margin-top: 50px;
+}
+
+
+.card{
+    margin-top:100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2%);
+}
+
+
+.card-img-top{
+    margin-top:6.5px;
+    margin-left: 6.5px;
+    border-radius:10px;
+    width:17rem;
+    height:17rem;
+
+}
+
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+}
+
+
+
+
+
+.footer a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-decoration:none;
+    color:#8fbb29;
+}
+
+footer{
+    background-color:#1f5228;
+    height: 300px;
+    display:grid;
+    min-width:100vw;
+}
+
+.ubicacion{
+    color:#8fbb29;
+    font-family: 'Dosis', sans-serif;
+}
+
+.encontranos{
+    font-family: 'Dosis', sans-serif;
+    font-size:34px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.subtitulo-footer{
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.fa-brands{
+    color:#fff;
+}
+
+.fa-solid{
+    color:#fff;
+}
+
+@media (max-width:700px){
+    .titulo{
+        font-size: 45px;
+    }
+
+    .textoPresentacion{
+        font-size: 45px;
+    }
+    .presentacion{
+        grid-template-columns: 1fr;
+    }
+    .almuerzoen5{
+        font-size: 45px;
+    }
+    .almuerzoEn-5{
+        grid-template-columns: 1fr;
+        margin-bottom: 150px;
+    }
+    .fotoen5{
+        margin-top:50px;
+    }
+
+    .foto5{
+        max-width: 400px;
+    }
+
+
+}
+
+@media (max-width:466px){
+    .foto5{
+        max-width: 250px;
+    }
+}
+
+
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-basis: auto;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        display:flex;
+        justify-content: center;
+    }
+    .collapse:not(.show) {
+        display:none;
+    }
+}
+
