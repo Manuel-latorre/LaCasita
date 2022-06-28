@@ -6,7 +6,7 @@
 }
 
 .cabecera{
-    background:url(/imagenes/fondo.png);
+    background:url(./imagenes/fondo.png);
     background-color:rgb(34, 32, 32);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
 .containerFluid{
     display: grid;
     min-width:100vw;
-    background-image: url(/imagenes/patron.jpg);
+    background-image: url(./imagenes/patron.jpg);
     background-color:#1f5228ee;
     background-blend-mode: soft-light;
 }
@@ -225,7 +225,7 @@ footer{
 
 
 .cabeceraDesayuno{
-    background:url(/imagenes/fondoDesayuno.jpg);
+    background:url(./imagenes/fondoDesayuno.jpg);
     background-color:rgb(34, 32, 32);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
