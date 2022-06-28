@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,25 +12,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@900&display=swap" rel="stylesheet">
   <!-- Google fonts -->
-  <link rel="shortcut icon" href="/imagenes/favicon1.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/imagenes/favicon.png" type="image/x-icon">
   <title>La Casita</title>
 </head>
 <body>
   <header class="cabecera">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link " aria-current="page" href="#">HOME</a>
-              <a class="nav-link" href="#">RECETAS</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#">CONTACTO</a>
-            </div>
-          </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                RECETAS
+              </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./paginas/desayunos.html">Desayunos</a></li>
+                <li><a class="dropdown-item" href="./paginas/postres.html">Postres</a></li>
+                <li><a class="dropdown-item" href="./paginas/sintacc.html">Sin Tacc</a></li>
+                <li><a class="dropdown-item" href="./paginas/platosSalu.html">Platos saludables</a></li>
+                <li><a class="dropdown-item" href="./paginas/platosAbun.html">Platos abundantes</a></li>
+                <li><a class="dropdown-item" href="./paginas/pastas.html">Pastas</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <div>
       <h1 class="titulo text-center">¡Bienvenidos<br>a La Casita!</h1>
     </div>
@@ -59,7 +74,7 @@
         </div>
     </div>
     <div class="fotoen5">
-      <img src="/imagenes/almu-en-5min.jpg" class="foto5" alt="foto">
+      <img src="/imagenes/almuen5min.jpg" class="foto5" alt="foto">
     </div>
   </section>
   <section class="containerFluid">
@@ -67,68 +82,68 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
       <div class="card" style="width: 18rem;">
-        <img src="/imagenes/portada-desayuno.jpg" class="card-img-top" alt="desayuno">
+        <img src="/imagenes/portadadesayuno.jpg" class="card-img-top" alt="desayuno">
         <div class="card-body">
           <h5 class="card-title">Desayunos</h5>
           <p class="card-text">No es un simple desayuno, es una buena forma de comenzar el día. ¡Ven y deléitate con
             nuestros desayunos!</p>
-          <a href="#" class="btn btn-primary">Ver recetas</a>
+          <a href="./paginas/desayunos.html" class="btn btn-primary">Ver recetas</a>
         </div>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
       <div class="card" style="width: 18rem;">
-        <img src="/imagenes/portada-postres.jpg" class="card-img-top" alt="desayuno">
+        <img src="/imagenes/portadapostres.jpg" class="card-img-top" alt="desayuno">
         <div class="card-body">
           <h5 class="card-title">Postres</h5>
           <p class="card-text">¡A mal tiempo, un buen postre!</p>
-          <a href="#" class="btn btn-primary">Ver recetas</a>
+          <a href="./paginas/postres.html" class="btn btn-primary">Ver recetas</a>
         </div>
       </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
       <div class="card" style="width: 18rem;">
-        <img src="/imagenes/portada-platos-abun.jpg" class="card-img-top" alt="desayuno">
+        <img src="/imagenes/portadaplatosabun.jpg" class="card-img-top" alt="desayuno">
         <div class="card-body">
           <h5 class="card-title">Platos abundantes</h5>
           <p class="card-text">El silencio es el sonido de una buena comida.</p>
-          <a href="#" class="btn btn-primary">Ver recetas</a>
+          <a href="./paginas/platosAbun.html" class="btn btn-primary">Ver recetas</a>
         </div>
       </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
       <div class="card" style="width: 18rem;">
-        <img src="/imagenes/portada-saludable.jpg" class="card-img-top" alt="desayuno">
+        <img src="/imagenes/portadasaludable.jpg" class="card-img-top" alt="desayuno">
         <div class="card-body">
           <h5 class="card-title">Platos Saludables</h5>
           <p class="card-text">No tienes que cocinar elegantes o complicadas recetas gourmet, solo cocina buena comida
             proveniente de ingredientes frescos</p>
-          <a href="#" class="btn btn-primary">Ver recetas</a>
+          <a href="./paginas/platosSalu.html" class="btn btn-primary">Ver recetas</a>
         </div>
         </div>
       </div>
       
       <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
       <div class="card" style="width: 18rem;">
-        <img src="/imagenes/portada-sintacc.jpg" class="card-img-top" alt="desayuno">
+        <img src="/imagenes/portadasintacc.jpg" class="card-img-top" alt="desayuno">
         <div class="card-body">
           <h5 class="card-title">Sin Tacc</h5>
           <p class="card-text">Libre de gluten tambien soy feliz :)</p>
-          <a href="#" class="btn btn-primary">Ver recetas</a>
+          <a href="./paginas/sintacc.html" class="btn btn-primary">Ver recetas</a>
         </div>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
       <div class="card" style="width: 18rem;">
-        <img src="/imagenes/portada-pastas.jpg" class="card-img-top" alt="desayuno">
+        <img src="/imagenes/portadapastas.jpg" class="card-img-top" alt="desayuno">
         <div class="card-body">
           <h5 class="card-title">Pasta</h5>
           <p class="card-text">La vida es una combinación de magia y pasta.</p>
-          <a href="#" class="btn btn-primary">Ver recetas</a>
+          <a href="./paginas/pastas.html" class="btn btn-primary">Ver recetas</a>
         </div>
         </div>
       </div>
@@ -157,7 +172,6 @@
       <p>Avenida Latinos 1675,<br>Azul, 7<br>Argentina</p>
     </div>
   </section>
-  
 </footer>
 
 

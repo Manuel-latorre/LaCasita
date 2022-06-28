@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -13,6 +14,15 @@
     height:600px;
 }
 
+.dropdown-menu{
+    background-color:#8fbb29;
+    font-family: 'Dosis', sans-serif;
+    margin-left:30px;
+}
+
+.dropdown-item{
+    color: #fff;
+}
 
 .titulo{
     color:#8fbb29;
@@ -118,7 +128,7 @@
 .containerFluid{
     display: grid;
     min-width:100vw;
-    background-image: url(/imagenes/patron1.jpg);
+    background-image: url(/imagenes/patron.jpg);
     background-color:#1f5228ee;
     background-blend-mode: soft-light;
 }
@@ -183,7 +193,7 @@ footer{
     background-color:#1f5228;
     height: 300px;
     display:grid;
-    min-width:100vw;
+    width:100%;
 }
 
 .ubicacion{
@@ -212,6 +222,79 @@ footer{
 .fa-solid{
     color:#fff;
 }
+
+
+.cabeceraDesayuno{
+    background:url(/imagenes/fondoDesayuno.jpg);
+    background-color:rgb(34, 32, 32);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+
+
+.cabeceraDesayuno .navbar-nav .nav-link{
+    color:#8fbb29;
+    letter-spacing: 1px;
+    font-weight:bold;
+    padding: 2px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition:0.3s;
+    transition-property:background;
+    
+}
+
+.cabeceraDesayuno .navbar-nav .nav-link:hover{
+    background: #fff;
+    color:#8fbb29;
+}
+
+
+.fotoDesayunopalta{
+    width:100%;
+    max-width:500px;
+    height:100%;
+    max-height:400px;
+    border-radius: 10px;
+    margin-right:20px;
+}
+
+.fotosDesayuno{
+    width:100%;
+    max-width:500px;
+    height:100%;
+    max-height:400px;
+    border-radius: 10px;
+    margin-left:20px;
+}
+
+
+.desayunos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.titulosDesayuno{
+    margin-top: 50px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:700px){
     .titulo{
@@ -249,8 +332,6 @@ footer{
 }
 
 
-
-
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         display: flex;
@@ -270,3 +351,22 @@ footer{
     }
 }
 
+
+@media (max-width: 650px){
+    .desayunos{
+        grid-template-columns: 1fr;
+    }
+
+    .fotosDesayuno{
+        margin-left:0;
+        display:flex!;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .fotoDesayunopalta{
+        margin-right:0;
+        display:flex!;
+        justify-content: center;
+    }
+}
