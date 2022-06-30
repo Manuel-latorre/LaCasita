@@ -455,7 +455,8 @@ footer{
 
 @media (max-width:466px){
     .foto5{
-        max-width: 250px;
+        width:250px;
+        height:150px;
     }
 }
 
@@ -500,13 +501,6 @@ footer{
         grid-template-columns: 1fr;
         margin-bottom: 150px;
     }
-    .fotoen5{
-        margin-top:50px;
-    }
-    
-    .foto5{
-        max-width: 400px;
-    }
 }
 
 @media (min-width: 992px){
@@ -525,6 +519,32 @@ footer{
     }
     .collapse:not(.show) {
         display:none;
+    }
+
+    .presentacion{
+        grid-template-columns: 1fr;
+        height:800px;
+    }
+
+    .parrafoPresentacion{
+        margin: 20px;
+    }
+
+    .textoPresentacion{
+        margin-top: 20px;
+    }
+
+    .almuerzoen5{
+        margin-top: 20px;
+    }
+
+    .almuerzoEn-5{
+        height: 1200px;
+    }
+
+    .foto5{
+        width:300px;
+        height: 200px;
     }
 }
 
